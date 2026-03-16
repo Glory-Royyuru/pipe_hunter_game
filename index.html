@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Pipe Hunter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="menu" id="menu">
+
+<h1>🐦 PIPE HUNTER</h1>
+
+<button onclick="startGame()">Start Game</button>
+<button onclick="showInstructions()">Instructions</button>
+
+<label>
+Difficulty
+<select id="difficulty">
+<option value="1">Easy</option>
+<option value="1.5">Normal</option>
+<option value="2">Hard</option>
+</select>
+</label>
+
+<label>
+Sound
+<input type="checkbox" id="soundToggle" checked>
+</label>
+
+<p id="instructions" style="display:none">
+Arrow keys to move<br>
+Shift to dash<br>
+Collect coins and survive enemies
+</p>
+
+</div>
+
+<div class="game-container">
+
+<div class="stats">
+Score: <span id="score">0</span>
+Level: <span id="level">1</span>
+Combo: <span id="combo">0</span>
+High Score: <span id="highScore">0</span>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
