@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(#66d6ff,#b8f3ff);
+    text-align:center;
+    }
+    
+    .menu{
+    margin-top:80px;
+    }
+    
+    button{
+    padding:10px 20px;
+    margin:10px;
+    font-size:18px;
+    cursor:pointer;
+    }
+    
+    canvas{
+    border:4px solid #333;
+    border-radius:10px;
+    background:#87CEEB;
+    display:block;
+    margin:20px auto;
+    }
+    
+    .stats{
+    font-size:20px;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    }
